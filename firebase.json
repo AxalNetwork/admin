@@ -9,10 +9,7 @@
       "rewrites": [
         {
           "source": "**",
-          "run": {
-            "serviceId": "admin",
-            "region": "europe-west4"
-          }
+          "destination": "/index.html"
         }
       ]
     }
