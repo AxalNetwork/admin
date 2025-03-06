@@ -1,0 +1,19 @@
+{
+    "hosting": {
+      "public": "dist",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "run": {
+            "serviceId": "admin",
+            "region": "europe-west4"
+          }
+        }
+      ]
+    }
+  }
